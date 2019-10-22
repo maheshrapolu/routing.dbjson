@@ -1,0 +1,9 @@
+/* table tr td{
+    border:"1" 
+    style="color:rgb(30, 32, 28)" 
+    align="center"
+} */
+table, th, td {
+    border: 1px solid red;
+    
+  }

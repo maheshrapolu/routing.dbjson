@@ -1,0 +1,17 @@
+<form [formGroup]="form" class="form-group" >
+    <label>Id:</label>
+    <input type="text" class="form-control" formControlName="id"><br>
+<label>FirstName:</label>
+<input type="text" class="form-control" formControlName="Firstname"><br>
+<label>LastName:</label>
+<input type="text" class="form-control" formControlName="lastname"><br>
+<button (click)="past(sa)" class="btn btn-primary">submit</button>
+</form>
+<table border="5px">
+    <tr *ngFor="let s of value">
+        <td>{{s.id}}</td>
+        <td>{{s.Firstname}}</td>
+        <td>{{s.lastname}}</td>
+       
+    </tr>
+</table>
